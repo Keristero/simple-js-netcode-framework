@@ -1,4 +1,4 @@
-#Simple JS netcode framework
+# Simple JS netcode framework
 The objective of this is to create the easiest to use js netcode solution, even if it may not perform the best.
 
 Features:
@@ -9,15 +9,15 @@ when a client connects, they get the full tree.
 * __Serverside Keyboard__, the server has the state of each client's keyboard, so it can process their inputs.
 * __Code sharing__, Write the game logic once for the server and clientside simulations... in theory.
 
-###Architecture
-![Bad diagram showing architecture](archy.png?raw=true "Architecture")
+### Architecture
+![Bad diagram showing architecture](./archy.PNG)
 
-##How to use / things to note
+## How to use / things to note
 1. Install dependencies with `npm install`, and start with `node main.js`
 2. everything in the _client_ folder is served.
 3. Both the server and client use stuff in the _shared_ folder
 4. The idea is you should just make your own extension of _JoNetInstance.js_ see _JoNetInstanceTest.js_ as an example.
-5. Classes are not serialzed, only the data will be intact, so if you want to use OOP, make all of your class methods static and use the heirarchy of the state tree to infer classes (_see Vehicle in JoNetInstanceTest.js for example_)
+5. Classes are not serialzed, only the data will be intact, so if you want to use OOP, make all of your class methods static and use the hierarchy of the state tree to infer classes (_see Vehicle in JoNetInstanceTest.js for example_)
 
 
 
