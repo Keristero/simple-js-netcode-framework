@@ -17,7 +17,7 @@ when a client connects, they get the full tree.
 2. everything in the _client_ folder is served.
 3. Both the server and client use stuff in the _shared_ folder
 4. The idea is you should just make your own extension of _JoNetInstance.js_ see _JoNetInstanceTest.js_ as an example.
-5. Classes are not serialzed, only the data will be intact, so if you want to use OOP, make all of your class methods static and use the heirarchy of the state tree to infer classes (_see Vehicle in JoNetInstanceTest.js for example_)
+5. Classes are not serialzed, only the data will be intact, so if you want to use OOP, make all of your class methods static and use the hierarchy of the state tree to infer classes (_see Vehicle in JoNetInstanceTest.js for example_)
 
 
 
