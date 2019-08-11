@@ -9,7 +9,7 @@ const JoNetServer = require('./JoNetServer.js')
 let joNetServer = new JoNetServer(io)
 
 //config
-const port = 80
+const port = process.env.PORT || 80
 
 //express routes
 app.get("/",(req,res)=>{
