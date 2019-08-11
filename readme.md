@@ -10,7 +10,7 @@ when a client connects, they get the full tree.
 * __Code sharing__, Write the game logic once for the server and clientside simulations... in theory.
 
 ### Architecture
-![Bad diagram showing architecture](./archy.png)
+![Bad diagram showing architecture](./archy.PNG)
 
 ## How to use / things to note
 1. Install dependencies with `npm install`, and start with `node main.js`
