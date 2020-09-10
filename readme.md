@@ -1,5 +1,6 @@
 # Simple JS netcode framework
 The objective of this is to create the easiest to use js netcode solution, even if it may not perform the best.
+Note: this sucks and is incomplete
 
 Features:
 * __State tree__, put all of the app state you want to share in JoNetInstance.state.world
