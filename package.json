@@ -13,6 +13,6 @@
     "express": "^4.16.4",
     "jsonpack": "^1.1.5",
     "observable-slim": "^0.1.5",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   }
 }
