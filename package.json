@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "jsonpack": "^1.1.5",
     "observable-slim": "^0.1.5",
     "socket.io": "^2.2.0"
